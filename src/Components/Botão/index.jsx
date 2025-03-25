@@ -9,19 +9,9 @@ const Button = () => {
   return (
     <StyledWrapper>
       <div className="parent">
-        <div className="child child-1">
-          <a
-            href="https://x.com/Mary_Albuquer_"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="button btn-1" aria-label="Twitter">
-              <FaXTwitter color="#000000" />
-            </button>
-          </a>
-        </div>
+        
         <div className="child child-2">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/suzyd_lima" target="_blank" rel="noopener noreferrer">
             <button className="button btn-2" aria-label="Instagram">
               <IoLogoInstagram color="#ff00ff" />
             </button>
@@ -29,7 +19,7 @@ const Button = () => {
         </div>
         <div className="child child-3">
           <a
-            href="https://t.me/+KbkVz78M_5liNjFh"
+            href="https://t.me/SuzyDuarteBot"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +30,7 @@ const Button = () => {
         </div>
         <div className="child child-4">
           <a
-            href="https://privacy.com.br/profile/MaryAlbuquerqueFree"
+            href="https://www.stripchat.com/Su_Duarte_1/follow-me"
             target="_blank"
             rel="noopener noreferrer"
           >

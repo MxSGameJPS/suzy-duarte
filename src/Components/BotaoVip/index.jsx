@@ -5,7 +5,7 @@ const ButtonVip = () => {
   return (
     <StyledWrapper>
       <a
-        href="https://privacy.com.br/profile/mary_albuquerque"
+        href="https://privacy.com.br/@Su_duarte_1"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,7 +22,7 @@ const ButtonVip = () => {
 
 const StyledWrapper = styled.div`
   .Btn {
-    width: clamp(220px, 80vw, 240px);
+    width: clamp(180px, 80vw, 180px);
     height: clamp(36px, 10vw, 40px);
     border: none;
     border-radius: 40px;

@@ -17,13 +17,13 @@ export default function DobraUm() {
 
   // Array de imagens para o background em telas pequenas
   const bgImages = [
-    "/img/1.JPG",
-    "/img/2.JPG",
-    "/img/3.JPG",
-    "/img/4.jpg",
-    "/img/5.JPG",
+    "/img/1.jpeg",
+    "/img/2.jpeg",
+    "/img/3.jpeg",
+    "/img/4.jpeg",
+    "/img/5.jpeg",
     "/img/6.jpg",
-    "/img/7.JPEG",
+    "/img/7.jpg",
   ];
 
   useEffect(() => {
@@ -36,16 +36,16 @@ export default function DobraUm() {
       // Ajustes específicos baseados no tamanho da tela
       if (window.innerWidth <= 480) {
         // Para mobile pequeno
-        valorMaskSize = "20000vw";
+        valorMaskSize = "8000vw";
       } else if (window.innerWidth <= 768) {
         // Para tablets
-        valorMaskSize = "15000vw";
+        valorMaskSize = "7000vw";
       } else if (window.innerWidth <= 1000) {
         // Para desktop pequeno
-        valorMaskSize = "12000vw";
+        valorMaskSize = "6000vw";
       } else {
         // Para desktop grande
-        valorMaskSize = "10000vw";
+        valorMaskSize = "6000vw";
       }
 
       // Armazenar o estado atual da janela
@@ -62,11 +62,12 @@ export default function DobraUm() {
 
       // Ajustar o ponto final da animação para dispositivos móveis
       const endPosition =
-        window.innerWidth <= 768 ? "bottom 30%" : "bottom 70%";
+        window.innerWidth <= 768 ? "bottom 50%" : "bottom 170%";
 
       // Aplicar a animação da máscara com valores ajustados
       gsap.to(".mask", {
         maskSize: valorMaskSize,
+        maskPosition: "25% center",
         scrollTrigger: {
           trigger: ".mask",
           scrub: scrubSpeed,
@@ -163,7 +164,7 @@ export default function DobraUm() {
         <Content className="content">
           <TextContainer $isMobile={windowSize.width <= 768}>
             <Heading>Quero te satisfazer</Heading>
-            <Paragraph>De todos os jeitos que você imaginar</Paragraph>
+            <Paragraph>Só depende de você. Vem ver o que eu tenho! </Paragraph>
             <ButtonContainer>
               <Button />
               <ButtonVip />
