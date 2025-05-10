@@ -11,7 +11,7 @@ const Button = () => {
       <div className="parent">
         
         <div className="child child-2">
-          <a href="https://www.instagram.com/suzyd_lima" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/suaduarteofc" target="_blank" rel="noopener noreferrer">
             <button className="button btn-2" aria-label="Instagram">
               <IoLogoInstagram color="#ff00ff" />
             </button>
@@ -31,6 +31,17 @@ const Button = () => {
         <div className="child child-4">
           <a
             href="https://www.stripchat.com/Su_Duarte_1/follow-me"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="button btn-4" aria-label="18+">
+              <TbRating18Plus color="#ff0000" />
+            </button>
+          </a>
+        </div>
+        <div className="child child-4">
+          <a
+            href="https://privacy.com.br/@SuDuarteFree"
             target="_blank"
             rel="noopener noreferrer"
           >
